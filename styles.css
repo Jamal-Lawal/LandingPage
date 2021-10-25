@@ -1,0 +1,454 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Nav-Bar */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 10px;
+    background-color: darkcyan;
+    border-bottom: 2px solid rgb(176, 178, 34);
+}
+.logo{
+    color: rgb(176, 178, 34);
+    font-weight: 700;
+}
+.logo span{
+    color: floralwhite;
+    text-transform: uppercase;
+}
+.navlist{
+    color: floralwhite;
+    font-size: 20px;
+    font-weight: 900;
+}
+.navlist a{
+    margin: 30px;
+}
+.navbar a:hover{
+    cursor: pointer;
+    color: rgb(176, 178, 34);
+    border-bottom: 2px solid floralwhite;
+}
+.navlist a:first-child{
+    color: rgb(176, 178, 34);
+    padding: 10px;
+    background-color: rgb(248, 250, 250);
+    border-radius: 4px;
+}
+.navlist a:first-child:hover{
+    color: floralwhite;
+    background-color: rgb(2, 43, 14);
+}
+/* main-css */
+.mainhead{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    /* margin-bottom: 200px; */
+    /* padding-bottom: -1000px; */
+    padding-bottom: -3px;
+}
+.maintext{
+    font-size: 2rem;
+    color: rgb(2, 43, 14);
+    padding: 50px;
+    padding-top: 100px;
+    font-size: 20px;
+}
+.maintext p{
+    margin-top: 20px;
+}
+/* button */
+.btn{
+    background-color: rgb(2, 43, 14);
+    padding: 20px 50px;
+    font-size: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: none;
+    color: floralwhite;
+    font-weight: 500;
+    
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(176, 178, 34);
+    text-transform: uppercase;
+}
+.images{
+    height: 1000px;
+    padding-bottom: -100px;
+    display:
+    /* justify-items: center;
+    align-items: center; */
+    /* padding-bottom: -600px;
+     */
+    
+
+}
+.farm1 img{
+    /* width: 60%;
+    height: 600px;
+    position: relative;
+    right: 50px;
+    z-index: 9;
+    padding-bottom: -200px; */
+    position: relative;
+    height: 600px;
+    width: 60%;
+    z-index: 9;
+    
+    
+}
+.farm2 img{
+    /* width: 47%;
+    height: 600px;
+    position: relative;
+    bottom: 550px;
+    left: 450px;
+    padding-bottom: -200px; */
+    height: 600px;
+    width: 60%;
+    position: relative;
+    bottom: 550px;
+    left: 340px;
+}
+.farm3 img{
+    /* width: 70%;
+    height: 600px;
+    position: relative;
+    bottom: 700px;
+    left: 100px;
+    z-index: 0;
+    padding-bottom: -500px; */
+    height: 600px;
+    width: 60%;
+    position: relative;
+    bottom: 800px;
+    left: 250px;
+    
+}
+/* image */
+/* .img{
+    width: 50%;
+} */
+/* About Us */
+.about{
+    text-align: center;
+    width: 75%;
+    margin: 100px auto;
+    padding-bottom: 200px;
+}
+.about h1{
+    font-size: 2rem;
+    font-weight: 900;
+    color: rgb(2, 43, 14);
+    padding-bottom: 10px;
+    
+}
+.hr{
+    color: rgb(2, 43, 14);
+    border: 2px solid;
+}
+.about p{
+    padding-top: 20px;
+    margin-bottom: -100px;
+}
+/* Services */
+.service{
+    text-align: center;
+    width: 85%;
+    margin: 25px auto;
+}
+.service h1{
+    font-size: 2rem;
+    font-weight: 900;
+    color: rgb(2, 43, 14);
+    padding-bottom: 10px;
+}
+.service h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(2, 43, 14);
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.svc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -160px;
+}
+.card{
+    height: 30vh;
+    width: 100%;
+    border: rgb(2, 43, 14) 1px solid;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+.card2{
+    height: 30vh;
+    width: 100%;
+    border: rgb(2, 43, 14) 1px solid;
+    margin-right: 30px;
+    margin-top: 200px;
+    border-radius: 10px;
+}
+.card3{
+    height: 30vh;
+    width: 100%;
+    border: rgb(2, 43, 14) 1px solid;
+    margin-right: 30px;
+    margin-top: 400px;
+    border-radius: 10px;
+}
+.btn2{
+    background-color: rgb(2, 43, 14);
+    padding: 10px 30px;
+    font-size: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: none;
+    color: floralwhite;
+    font-weight: 200;
+}
+.btn2:hover{
+    cursor: pointer;
+    background-color: rgb(176, 178, 34);
+    text-transform: uppercase;
+}
+/* Contact */
+.contact{
+    text-align: center;
+    width: 85%;
+    margin: 100px auto;
+}
+.contact h1{
+    font-size: 2rem;
+    font-weight: 900;
+    color: rgb(2, 43, 14);
+    padding-bottom: 10px;
+}
+.contactbody{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+.contactbody h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(2, 43, 14);
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.cnt{
+    display: flex;
+    justify-content: space-between;
+    height: 10px;
+    width: 50%;
+}
+
+.p2{
+padding-top: 15px;
+padding-bottom: 15px;
+}
+.email{
+    color: rgb(2, 43, 14);
+}
+.email:hover{
+    cursor: pointer;
+    color: rgb(176, 178, 34);
+}
+/* contact-form */
+.contact-form{
+    height: 100%;
+    width: 50%;
+     border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+/* .form-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3 2fr);
+} */
+.form-wrapper{
+    display: flex;
+    
+}
+.contact-form input{
+    width: 70%;
+    height: 30px;
+    margin: 5px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 2px 10px;
+}
+.contact-form ::placeholder{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.contact-form select{
+    width: 100%;
+    height: 38px;
+    margin-top: 5px;
+    margin-left: 0;
+    margin-right: 30px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.form input{
+    height: 100px;
+    padding: 40px;
+    margin-bottom: 30px;
+}
+
+/* Our Product */
+.ourproducts{
+    text-align: center;
+    width: 85%;
+    margin: 25px auto;
+}
+.ourproducts h1{
+    font-size: 2rem;
+    font-weight: 900;
+    color: rgb(2, 43, 14);
+    padding-bottom: 10px; 
+}
+.productswrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 20px;
+    align-items: center;
+}
+.cad-1{
+    height: 400px;
+    width: 90%;
+    border: #ced4da 1px solid;
+    border-radius: 10px;
+    box-shadow: #d6d7d8 5px 5px;
+}
+.cad-2{
+    height: 400px;
+    width: 90%;
+    border: #ced4da 1px solid;
+    border-radius: 10px;
+    box-shadow: #d6d7d8 5px 5px 
+}
+.cad-3{
+    height: 400px;
+    width: 90%;
+    border: #ced4da 1px solid;
+    border-radius: 10px;
+    box-shadow: #d6d7d8 5px 5px
+}
+.cad-4{
+    height: 400px;
+    width: 90%;
+    border: #ced4da 1px solid;
+    border-radius: 10px;
+    box-shadow: #d6d7d8 5px 5px
+}
+.cad-5{
+    height: 400px;
+    width: 90%;
+    border: #ced4da 1px solid;
+    border-radius: 10px;
+    box-shadow: #d6d7d8 5px 5px
+}
+.cad-6{
+    height: 400px;
+    width: 90%;
+    border: #ced4da 1px solid;
+    border-radius: 10px;
+    box-shadow: #d6d7d8 5px 5px
+}
+.cad-7{
+    height: 400px;
+    width: 90%;
+    border: #ced4da 1px solid;
+    border-radius: 10px;
+    box-shadow: #d6d7d8 5px 5px
+}
+.cad-8{
+    height: 400px;
+    width: 90%;
+    border: #ced4da 1px solid;
+    border-radius: 10px;
+    box-shadow: #d6d7d8 5px 5px
+}
+.cad-9{
+    height: 400px;
+    width: 90%;
+    border: #ced4da 1px solid;
+    border-radius: 10px;
+    box-shadow: #d6d7d8 5px 5px
+}
+.cad-10{
+    height: 400px;
+    width: 90%;
+    border: #ced4da 1px solid;
+    border-radius: 10px;
+    box-shadow: #d6d7d8 5px 5px
+}
+.productswrapper img{
+    width: 100%;
+    height: 80%;
+}
+.productswrapper h2{
+    padding-top: 20px;
+    padding-left: auto;
+    padding-right: auto;
+    color: rgb(2, 43, 14);
+}
+/* Footer */
+.footer{
+    border-top: #ced4da 1px solid;
+    background-color: darkcyan;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo p{
+    font-size: 10px;
+    font-weight: 100;
+    padding-top: 5px;
+}
+.icons{
+    justify-content: space-between;
+    padding-top: 30px;
+    
+    
+}
+.icons i{
+    font-size: 30px;
+    padding: 10px;
+}
+.cr{
+display: flex;
+color: floralwhite;
+
+}
+.cr a{
+    margin: auto 20px;
+}
+.cr a :hover{
+    cursor: pointer;
+}
+.cr p{
+    margin: auto 20px;
+}
+
+/* Media Query */
+@media screen {
+    
+}
